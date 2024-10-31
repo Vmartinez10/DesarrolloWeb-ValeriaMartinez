@@ -1,0 +1,331 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  max-width: 1400px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: rgba(226, 226, 226, 0.795);
+}
+
+.navbar {
+  background-color: rgb(253, 122, 0);
+  font-size: larger;
+}
+
+.navbar-brand {
+  padding-left: 50px;
+}
+
+nav img {
+  width: 65px;
+}
+
+a {
+  padding-left: 15%;
+}
+
+.btn {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #cc5200;
+}
+
+#main {
+  min-height: 100vh;
+}
+
+/*---MAIN-INDEX---*/
+#banner-index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 50vh;
+  color: white;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/index1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.segunda-barra_index, .tex-h3 {
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+}
+
+.style-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*---BANNER ZAPATILLAS---*/
+#banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 50vh;
+  color: white;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/zapatillas-banner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/*----BARRA OPCIONES ZAPATILLAS----*/
+#inicio__contenidoh3 {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(253, 122, 0);
+  padding: 15px;
+}
+
+#main-zapatillas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5%;
+  border-radius: 10%;
+}
+
+/*LANZAMIENTOS*/
+/*--MAIN--*/
+.titulo-lanzamiento, .titu_secun-lanzamiento {
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+}
+
+.cards-lanzamientos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Contenedor de tarjetas de productos */
+.product-card {
+  background-color: white;
+  padding: 1rem;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+  margin: 1rem;
+}
+
+/* Efecto al pasar el mouse */
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+/* Imagen del producto */
+.product-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Título del producto */
+.product-card h3 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+/* Precio del producto */
+.product-card p {
+  font-size: 1rem;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+/* Botón de compra */
+.product-card button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+  background-color: #cc5200;
+}
+
+.full-width-image {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image: url(/images/lamzamiento4.png);
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s ease;
+  display: flex;
+  align-items: center;
+}
+
+.zoom-image:hover {
+  transform: scale(2);
+}
+
+.full-width-text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  font-size: 4rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.image-container {
+  padding: 15px;
+}
+
+/*CARRUSEL*/
+#footer {
+  max-width: 100%;
+  height: auto;
+  background-color: rgb(253, 122, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer__text {
+  display: block;
+  text-align: center;
+}
+
+.footer__logo-button {
+  padding: 15px 40px;
+  border-radius: 10px;
+}
+
+.footer__logo-pictureImg {
+  width: 150px;
+  height: 150px;
+}
+
+.footer__redes i {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+/*BREAKPOINTS
+MOBILE= 600px
+TABLET= 800 Y 900px
+DESKTOP= 1200 y 1400px*/
+/*--ZAPATILLAS*/
+@media screen and (max-width: 900px) {
+  .style-img {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /*--ZAPATILLAS*/
+  .section__grid-styles {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1400px) {
+  .section__grid-styles {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+}
+/*---MAIN-INDEX---*/
+#banner-index {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/index1.png);
+}
+
+.banner-index-text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  position: absolute;
+  align-items: center;
+  font-weight: bold;
+  font-size: 4rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+}
+
+.segunda-barra_index, .tex-h3 {
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+}
+
+.style-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#cards-index {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=style.css.map */

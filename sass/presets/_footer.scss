@@ -1,0 +1,29 @@
+#footer {
+    max-width: 100%;
+    height: auto;
+    background-color: rgb(253, 122, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer__text {
+    display: block;
+    text-align: center;
+}
+
+.footer__logo-button {
+    padding: 15px 40px;
+    border-radius: 10px;
+}
+
+.footer__logo-pictureImg {
+    width: 150px;
+    height: 150px;
+}
+
+.footer__redes i {
+    font-size: 30px;
+    margin-right: 10px;
+}

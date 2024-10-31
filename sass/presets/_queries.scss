@@ -1,0 +1,24 @@
+/*BREAKPOINTS
+MOBILE= 600px
+TABLET= 800 Y 900px
+DESKTOP= 1200 y 1400px*/
+
+
+/*--ZAPATILLAS*/
+@media screen and (max-width: 900px){
+    .style-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /*--ZAPATILLAS*/
+    .section__grid-styles {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1400px) {
+    .section__grid-styles {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    }
+}
