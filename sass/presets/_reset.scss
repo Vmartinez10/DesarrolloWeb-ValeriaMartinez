@@ -10,7 +10,6 @@
 body {
     background-color: rgba(226, 226, 226, 0.795);
 }
-
 .navbar {
     background-color: rgb(253, 122, 0);
     font-size: larger
@@ -27,6 +26,7 @@ a {
     padding-left: 15%;
 }
 
+
 .btn{
     background-color: #ff6600;
     color: white;
@@ -36,6 +36,9 @@ a {
     cursor: pointer;
     font-weight: bold;
     transition: background-color 0.3s;
+        .btn:hover{
+            background-color: #cc5200;
+        }
 }
 .btn:hover{
     background-color: #cc5200;

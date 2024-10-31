@@ -40,6 +40,9 @@ a {
   font-weight: bold;
   transition: background-color 0.3s;
 }
+.btn .btn:hover {
+  background-color: #cc5200;
+}
 
 .btn:hover {
   background-color: #cc5200;
@@ -62,6 +65,15 @@ a {
   background-size: cover;
   background-position: center center;
 }
+#banner-index .banner-index-text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  position: absolute;
+  align-items: center;
+  font-weight: bold;
+  font-size: 4rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+}
 
 .segunda-barra_index, .tex-h3 {
   font-family: "Courier New", Courier, monospace;
@@ -80,12 +92,6 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-}
-
-.card-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 /*---BANNER ZAPATILLAS---*/
@@ -168,10 +174,9 @@ a {
   font-size: 1.2rem;
   margin: 0.5rem 0;
   color: #333;
+  /* Precio del producto */
 }
-
-/* Precio del producto */
-.product-card p {
+.product-card h3 p {
   font-size: 1rem;
   color: #555;
   margin: 0.5rem 0;
@@ -187,6 +192,9 @@ a {
   cursor: pointer;
   font-weight: bold;
   transition: background-color 0.3s;
+}
+.product-card button .product-card button:hover {
+  background-color: #cc5200;
 }
 
 .product-card button:hover {
@@ -276,20 +284,6 @@ DESKTOP= 1200 y 1400px*/
   }
 }
 /*---MAIN-INDEX---*/
-#banner-index {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/index1.png);
-}
-
-.banner-index-text {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: white;
-  position: absolute;
-  align-items: center;
-  font-weight: bold;
-  font-size: 4rem;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
-}
-
 .segunda-barra_index, .tex-h3 {
   font-family: "Courier New", Courier, monospace;
   display: flex;
@@ -321,8 +315,7 @@ DESKTOP= 1200 y 1400px*/
   justify-content: space-between;
   padding: 2%;
 }
-
-.card-body {
+#cards-index .card-body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;

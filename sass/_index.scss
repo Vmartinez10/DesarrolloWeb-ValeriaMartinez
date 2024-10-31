@@ -1,18 +1,4 @@
 /*---MAIN-INDEX---*/
-#banner-index{
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/index1.png);
-}
-
-.banner-index-text{    
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    position: absolute;
-    align-items: center;
-    font-weight: bold;
-    font-size: 4rem;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
-
-}
 .segunda-barra_index , .tex-h3{
     font-family:'Courier New', Courier, monospace;
     display: flex;
@@ -29,7 +15,7 @@
     flex-wrap:wrap ;
     justify-content: space-around;
     align-items: center;
-    
+
 }
 .card-body{
     display: flex;
@@ -42,12 +28,12 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 2%;
-}
 
-.card-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between
+    .card-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
 
 
