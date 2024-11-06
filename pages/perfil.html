@@ -15,6 +15,8 @@
     
     <title>Document</title>
 </head>
+
+<!--BODY PEFIL-->
 <body id="body">
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -41,33 +43,33 @@
         </div>
     </nav>
 
-<main>
-    <form class="row g-3">
-
+<!--MAIN PERFIL-->
+<main id="main">
+    <form class="formulario">
         <div class="col-md-6">
-        <label for="inputEmail4" class="form-label">Nombre y Apellido</label>
+        <label for="inputEmail4" class="form-label">Nombre y Apellido:</label>
         <input type="text" class="form-control" id="inputEmail4" placeholder="Maria Perez">
         </div>
 
         <div class="col-md-6">
-        <label for="inputPassword4" class="form-label">Contraseña</label>
+        <label for="inputPassword4" class="form-label">Contraseña:</label>
         <input type="password" class="form-control" id="inputPassword4"placeholder="Min. 8 caracteres">
         </div>
 
         <div class="col-12">
-        <label for="inputAddress" class="form-label">DNI</label>
+        <label for="inputAddress" class="form-label">DNI:</label>
         <input type="number" class="form-control" id="inputAddress" placeholder=" Ej:12345678">
         </div>
 
         <div class="col-12">
-        <label for="inputAddress2" class="form-label">Dirección</label>
+        <label for="inputAddress2" class="form-label">Dirección:</label>
         <input type="text" class="form-control" id="inputAddress2" placeholder="Ej: Rivadavia 2300">
         </div>
 
         <div class="col-md-4">
-        <label for="inputState" class="form-label">State</label>
+        <label for="inputState" class="form-label">Metodo de pago:</label>
         <select id="inputState" class="form-select">
-            <option selected>Metodo de pago</option>
+            <option selected>Efectivo</option>
             <option>Debito</option>
             <option>Credito</option>
             <option>transferencia</option>
@@ -88,16 +90,17 @@
             </label>
         </div>
         </div>
-
-        <div class="col-12">
-        <button type="submit" class="btn btn-primary">Confirmar</button>
+    
+<!--BOTON CONFIRMACION-->
+        <div class="button-perfil">
+            <button type="submit" class="btn-contirmacion btn-primary">Confirmar</button>
         </div>
     </form>
-    </main>
+</main>
 
-                <!-----FOOTER----->
+<!-----FOOTER----->
 
-
+<!-----LOGO----->
 <footer id="footer">
     <section class="footer__logo">
         <picture class="footer__logo-picture">
@@ -105,6 +108,7 @@
         </picture>
     </section>
 
+<!-----SUSCRIPCION----->
     <section class="footer__text">
             <h3>¡Suscribite y enterate de todas <br>nuestras promociones!</h3>
             <input type="email" placeholder="Email">
@@ -113,6 +117,7 @@
         </section>
     </section>
 
+<!-----CONTACTO----->
     <section class="footer__redes">
         <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-instagram"></i>
@@ -120,6 +125,7 @@
     </section>
 </footer>
 
+<!--SCRIPT BTS-->
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

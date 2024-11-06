@@ -1,29 +1,55 @@
+/*ESTILOS SCSS*/
+$color-principal: $color-principal;
+$btn-color: #ff6600;
+$btn-hover-color: #cc5200;
+$text-color: white;
+
+/*ESTILOS FOOTER*/
 #footer {
     max-width: 100%;
     height: auto;
-    background-color: rgb(253, 122, 0);
+    background-color: $color-principal;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+
+/*SUSCRIPCION*/
+    .footer__text {
+        display: block;
+        text-align: center;
+        color: $text-color;
+    }
+
+/*LOGO FOOTER*/
+    .footer__logo-pictureImg {
+        width: 150px;
+        height: 150px;
+    }
+
+/*CONTACTOS*/
+    .footer__redes {
+        i {
+        font-size: 30px;
+        margin-right: 10px;
+        color: $text-color;
+        }
+    }
 }
 
-.footer__text {
-    display: block;
-    text-align: center;
-}
+/*ESTILOS BUTTON*/
+.btn {
+    background-color: $btn-color;
+    color: $text-color;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin: 5%;
 
-.footer__logo-button {
-    padding: 15px 40px;
-    border-radius: 10px;
-}
-
-.footer__logo-pictureImg {
-    width: 150px;
-    height: 150px;
-}
-
-.footer__redes i {
-    font-size: 30px;
-    margin-right: 10px;
+    &:hover {
+        background-color: $btn-hover-color;
+    }
 }
