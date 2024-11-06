@@ -10,6 +10,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    .focus-in-expand {
+        animation: focus-in-expand 2s 2s infinite ;
+    }
 
     .banner-index-text {    
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -17,7 +20,7 @@
         position: absolute;
         align-items: center;
         font-weight: bold;
-        font-size: $titulo-principal;
+        font-size: 60px;
         text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
     }
 }
@@ -26,10 +29,10 @@
     display: flex;
     justify-content: center;
     color: white;
-    font-size: $titulo-secundario;
+    font-size:40px;
     font-weight: 700;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #ff6600;
     padding: 10px 20px;
 }
 .style-img{
@@ -37,11 +40,6 @@
     flex-wrap:wrap ;
     justify-content: space-around;
     align-items: center;
-}
-.card-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 #cards-index {
@@ -57,7 +55,7 @@
     }
 }
 .btn-index {
-    background-color: $color-btn-principal;
+    background-color:rgb(253, 122, 0);
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -67,6 +65,14 @@
     transition: background-color 0.3s;
 
     &:hover {
-        background-color: $color-btn-hover;
+        background-color: #cc5200;
+    }
+}
+
+.card{
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: scale(1.05);
     }
 }

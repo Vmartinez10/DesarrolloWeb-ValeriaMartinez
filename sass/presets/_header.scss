@@ -1,0 +1,36 @@
+/*ESTILOS NAVBAR*/
+.navbar {
+    background-color: rgb(60, 60, 60);
+    font-size: larger;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+
+/*ESTILOS NAVBAR-BRAND*/
+    .navbar-brand {
+    padding-left: 50px;
+    }
+
+/*LINKS*/
+    .nav-link {
+    color: white;
+    }
+
+/*NAVBAR-BRAND Y LINKS*/
+    .navbar-brand {
+    color: white;
+    }
+}
+
+/*NAV IMG*/
+nav {
+    img {
+    width: 65px;
+    }
+}
+
+/*ESTILOS A*/
+a {
+    padding-left: 15%;
+}
