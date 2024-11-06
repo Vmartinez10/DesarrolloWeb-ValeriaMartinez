@@ -6,3 +6,19 @@ DESKTOP= 1200 y 1400px*/
 /*@media screen  and (min-width: 600px){
     #body-index , #body-lanzamientos ,
 }*/
+
+@media (max-width: 600px) {
+    #body , #body-perfil{
+        width: 100%;
+    }
+}
+@media (min-width: 601px) and (max-width: 900px) { 
+    #body , #body-perfil{
+        width: 100%;
+    }
+}
+@media (min-width: 901px) and (max-width: 1400px) {
+    #body , #body-perfil{
+        width: 100%;
+    }
+}
