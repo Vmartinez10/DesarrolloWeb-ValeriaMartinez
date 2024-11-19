@@ -160,7 +160,7 @@ a {
 
 /*BANNER LANZAMIENTO*/
 .full-width-image {
-  background-image: url(/images/lanzamiento-banner.png);
+  background-image: url(../images/lanzamiento-banner.png);
   position: relative;
   width: 100%;
   height: 400px;
@@ -223,7 +223,7 @@ a {
 }
 
 #body-perfil {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/fondo-perfil.png);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/fondo-perfil.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
