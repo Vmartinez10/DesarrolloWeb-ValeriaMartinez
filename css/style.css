@@ -158,6 +158,7 @@ a {
   background-color: #cc5200;
 }
 
+/*BANNER LANZAMIENTO*/
 .full-width-image {
   position: relative;
   width: 100%;
@@ -173,7 +174,6 @@ a {
   transform: scale(2);
 }
 
-/*BANNER LANZAMIENTO*/
 .full-width-text {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
