@@ -170,7 +170,8 @@ a {
   display: flex;
   align-items: center;
 }
-.full-width-image .zoom-image:hover {
+
+.zoom-image:hover {
   transform: scale(2);
 }
 

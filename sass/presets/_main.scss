@@ -118,11 +118,11 @@
     transition: transform 0.5s ease;
     display: flex;
     align-items: center;
-
-    .zoom-image:hover {
-        transform: scale(2);
-    }
 }
+.zoom-image:hover {
+    transform: scale(2);
+}
+
 
 .full-width-text {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -180,7 +180,4 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 1400px;
-
 }
-
-
